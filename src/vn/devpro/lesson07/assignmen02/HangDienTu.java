@@ -13,7 +13,7 @@ public class HangDienTu extends SanPham {
 		
 	}
 	
-	void nhap() {
+	public void nhap() {
 		
 		System.out.println("Enter code of product: ");
 		this.code = sc.nextLine();
