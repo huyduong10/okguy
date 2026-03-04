@@ -14,10 +14,18 @@ public class Date {
 		super();
 	}
 	
-	public Date(String date) {
+	public Date(int day, int month, int year) {
 		
-		super();
-		LocalDate local = LocalDate.parse(date);
+		this.day = day;
+		this.month = month;
+		this.year = year;
+
+		}
+	
+	
+	public String displayDate() {
+		
+		return (this.day + "/" + this.month + "/" + this.year);
 	}
 //	public Date(int day, int month, int year) {
 //		

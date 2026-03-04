@@ -3,7 +3,7 @@ package vn.devpro.lesson07.assignment05;
 public class NhanSu {
 
 	
-	String codeStaff;
+	String staffCode;
 	String firstName;
 	String lastName;
 	Date dateOfBirth;
@@ -18,7 +18,7 @@ public class NhanSu {
 		
 		super();
 
-		this.codeStaff = codeStaff;
+		this.staffCode = staffCode;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.dateOfBirth = dateOfBirth;
