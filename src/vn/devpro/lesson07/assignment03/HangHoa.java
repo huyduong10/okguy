@@ -28,4 +28,8 @@ public class HangHoa {
 				this.price);
 	}
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 

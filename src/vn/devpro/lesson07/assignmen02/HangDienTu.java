@@ -35,7 +35,7 @@ public class HangDienTu extends SanPham {
 	
 	void xuat() {
 		
-		System.out.printf("%-10s %-10s %-10s %-10s %-10s %n", this.code, this.name, this.date, this.date, this.price);
+		System.out.printf("%-15s %-15s %-15s %-15s %-15s %n", this.code, this.name, this.date, this.power, this.price);
 		
 		
 		
